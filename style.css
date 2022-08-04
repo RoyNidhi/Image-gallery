@@ -88,14 +88,14 @@ button a {
     overflow: hidden;
 }
 
-img {
+.grid-item img {
     width: 100%;
     height: 100%;
     overflow: hidden;
     transition: all 1s ease-in-out;
 }
 
-img:hover {
+.grid-item img:hover {
     transform: scale(1.1);
     background: rgb(0, 0, 0, 0.2);
 }
@@ -138,8 +138,9 @@ span::after {
     padding: 0 10px 0 2px;
 }
 
-.details h2 {
-    padding: 40px 0 8px 0;
+.details{
+    padding: 40px 0;
+    gap:400px;
 }
 
 .details span::before {
@@ -149,4 +150,8 @@ span::after {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     padding: 6px;
+}
+.logo img{
+    width:100%;
+    height:60px;
 }
